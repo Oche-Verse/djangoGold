@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-y&dliy-r=cjc(!^yb3q%@oo7^yd@1r$l+k_^xltt_ccm09bl01'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["https://www.goldelitedeals.com", 'https://djangogold-production.up.railway.app', 'localhost']
+ALLOWED_HOSTS = ["https://www.goldelitedeals.com", 'https://djangogold-production.up.railway.app', 'djangogold-production.up.railway.app', 'localhost']
 CSRF_TRUSTED_ORIGINS = ["https://www.goldelitedeals.com"] 
 
 
